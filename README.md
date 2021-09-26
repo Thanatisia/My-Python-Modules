@@ -7,6 +7,8 @@ You can just clone the repository and copy into your project's module folders.
 
 - Files
 - Folders
+- Remarks
+- File Information
 
 ## Files
 
