@@ -10,9 +10,13 @@ You can just clone the repository and copy into your project's module folders.
 
 ## Files
 
-- extlib.py, Asura
+> - {file-name}, {author}, {create-date}, {modified-date}
+
+- extlib.py, Asura, 2021-09-26 1012H, 2021-09-26 1012H
 
 ## Folders
+
+> - {folder-name}, {author}, {create-date}, {modified-date}
 
 NIL
 
