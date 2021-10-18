@@ -40,17 +40,26 @@ def get_currentfile_dir():
 	parent_dir = Path(__file__).parent
 	return parent_dir
 
-def get_parent_dir(file_path=__file__):
+def get_parent_dir(file_path=__file__, jumps=1):
 	""" Get the parent directory of a file/folder
 	:: Params
 		file_path
 			Description: The path of the file/folder you want to get the parent directory of
+			Type: String
 			Default: __file__ = Your current source file
+
+		jumps
+			Description: Number of parent directories you want to go backwards
+			Type: Integer
+			Default: 1
 
 	:: Syntax
 		Path({path-to-file}).parent
 	"""
-	return Path(file_path).parent
+	curr_dir = file_path
+	for i in range(jumps):
+		curr_dir = Path(curr_dir).parent
+	return curr_dir
 
 def init():
 	"""
