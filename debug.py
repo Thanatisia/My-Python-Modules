@@ -1,3 +1,10 @@
+"""
+Debug Module
+- Debugger for Python
+- Contains functions and classes for debugging and testing projects
+	such as:
+		unit testing
+"""
 import os
 import sys
 
